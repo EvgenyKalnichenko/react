@@ -8,7 +8,7 @@ export default class Button extends Component {
             content,
             ...others
         } = this.props;
-        console.log({...others});
+
         return (
             <button className={variant} {...others}>
                 {content}
