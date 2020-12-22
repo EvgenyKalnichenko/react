@@ -1,0 +1,23 @@
+.done {
+    text-decoration: line-through;
+}
+
+
+.todo-list-row {
+    display: flex;
+    align-items: center;
+}
+
+.todo-list-row .btn {
+    margin: 3px;
+}
+
+.todo-list-item{
+    margin-right: auto;
+    display: block;
+}
+
+.todo-list-item.important {
+    font-weight: bold;
+    color: #128f8f;
+}

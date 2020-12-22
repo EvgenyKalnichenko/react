@@ -12,16 +12,19 @@ const todoData = [
 
 const App = () => {
     return (
-        <div>
-            <div className="todo-list-header">
-                <TodoInput />
-                <div className="todo-list-btn">
-                    <Button content="All" variant="btn" disabled/>
+        <div className='container'>
+            <div className="todo-list-container">
+                <div className="todo-list-header">
+                    <TodoInput />
+                    <Button content="All" variant="btn is-active"/>
                     <Button content="Active" variant="btn" />
                     <Button content="Done" variant="btn" />
                 </div>
+                <TodoList
+                    todos={todoData}
+                    onDeleted={ (id) => console.log('del', id)}
+                />
             </div>
-            <TodoList todos={todoData}/>
         </div>
     );
 }
