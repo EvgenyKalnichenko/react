@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Button from '../button/';
 
 const TodoListItem = ({label, onDeleted,
     onToggleDone, onToggleImportant,

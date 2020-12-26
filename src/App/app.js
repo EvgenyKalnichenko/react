@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import TodoList from '../todo-list/'
 import TodoSearch from '../todo-search/'
-import Button from '../button/'
 import ItemAddForm from '../item-add-form/'
 import CurrentList from '../current-list/'
 import TodoFilter from '../todo-filter/'
