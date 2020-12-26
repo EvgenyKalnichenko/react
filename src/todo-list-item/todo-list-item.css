@@ -2,6 +2,9 @@
     text-decoration: line-through;
 }
 
+.hidden {
+    display: none;
+}
 
 .todo-list-row {
     display: flex;
@@ -9,15 +12,30 @@
 }
 
 .todo-list-row .btn {
-    margin: 3px;
+    margin-left: 5px;
 }
 
 .todo-list-item{
     margin-right: auto;
-    display: block;
+    display: inline-block;
+    word-break: break-word;
 }
 
 .todo-list-item.important {
     font-weight: bold;
     color: #128f8f;
+}
+
+.todo-item-data {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 3px;
+    font-size: 10px;
+    color: gray;
+    width: calc(100% - 2.5rem);
+    display: flex;
+}
+
+.todo-item-data__completion {
+    margin-left: auto;
 }

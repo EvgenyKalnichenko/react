@@ -1,0 +1,7 @@
+Схема приложения
+
+<App>               <-- todoData <-- done, important
+    <AppHeader>     <-- totalTodo, totalDone
+    <TodoInput>
+    <TodoList>
+        <TodoListItem>

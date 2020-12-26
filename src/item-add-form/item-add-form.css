@@ -1,0 +1,11 @@
+.add-form{
+    margin: 20px 0;
+}
+
+.add-form__row {
+    display: flex;
+}
+
+.add-form__row input {
+    margin-right: 10px;
+}

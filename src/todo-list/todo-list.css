@@ -1,6 +1,6 @@
 .todo-list-header {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .todo-list-header .btn {
@@ -9,6 +9,7 @@
 
 .todo-list-container {
     max-width: 580px;
+    width: 100%;
 }
 
 .list-group {
@@ -20,7 +21,7 @@
 .list-group-item  {
     position: relative;
     display: block;
-    padding: .75rem 1.25rem;
+    padding: .75rem 1.25rem 1.5rem;
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
